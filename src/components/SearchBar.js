@@ -13,7 +13,6 @@ function SearchBar() {
         placeholder="جستجو..."
         fullWidth
         sx={{
-          
           "& fieldset": { border: "none" },
           backgroundColor: "#F5F6FB",
           borderRadius: "8px",
