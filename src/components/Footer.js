@@ -48,7 +48,8 @@ export default function Footer() {
               <Sports />
               <Typography fontSize="10px">مسابقات</Typography>
             </div>
-          </a><a href="/">
+          </a>
+          <a href="/">
             <div
               style={{
                 display: "flex",
