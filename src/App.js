@@ -12,7 +12,13 @@ function App() {
       <Header />
       <SearchBar />
       <Days />
-      <div style={{ backgroundColor: "#F5F6FB", paddingTop: "10px" }}>
+      <div
+        style={{
+          backgroundColor: "#F5F6FB",
+          paddingTop: "10px",
+          paddingBottom: "70px",
+        }}
+      >
         <CardData />
       </div>
 

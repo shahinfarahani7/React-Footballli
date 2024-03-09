@@ -7,10 +7,11 @@ function Header() {
       <Grid
         item
         xs={11}
+        px="10px"
         sx={{
           display: "flex",
           justifyContent: "space-between",
-          padding:"10px"
+          paddingTop:"12px"
         }}
       >
         <Typography fontWeight="bold">نتایج زنده</Typography>
