@@ -1,14 +1,8 @@
 a {
-    color: rgb(0, 0, 0);
+    color:#9C9C9F;
     text-decoration: none;
 }
 
 a :active{
-    color: green;
-}
-a :visited{
-    color: green;
-}
-a :link{
     color: green;
 }

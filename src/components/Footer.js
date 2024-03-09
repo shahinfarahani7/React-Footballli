@@ -1,6 +1,10 @@
-import { Image, Sports } from "@mui/icons-material";
+import {  Sports } from "@mui/icons-material";
 import { Box, Container, Paper, Typography } from "@mui/material";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import Person2OutlinedIcon from '@mui/icons-material/Person2Outlined';
+import EmojiEventsOutlinedIcon from '@mui/icons-material/EmojiEventsOutlined';
+import SportsSoccerOutlinedIcon from '@mui/icons-material/SportsSoccerOutlined';
+import ExploreOutlinedIcon from '@mui/icons-material/ExploreOutlined';
 import "./Footer.css"
 
 export default function Footer() {
@@ -25,7 +29,7 @@ export default function Footer() {
             my: 1,
           }}
         >
-          <a href="/">
+          <a href="/" >
             <div
               style={{
                 display: "flex",
@@ -33,8 +37,8 @@ export default function Footer() {
                 alignItems:"center"
               }}
             >
-              <Sports />
-              <Typography fontSize="10px">مسابقات</Typography>
+              <Person2OutlinedIcon />
+              <Typography fontSize="10px">پروفایل</Typography>
             </div>
           </a>
           <a href="/">
@@ -45,8 +49,8 @@ export default function Footer() {
                 alignItems:"center"
               }}
             >
-              <Sports />
-              <Typography fontSize="10px">مسابقات</Typography>
+              <EmojiEventsOutlinedIcon />
+              <Typography fontSize="10px">لیگ ها</Typography>
             </div>
           </a>
           <a href="/">
@@ -57,8 +61,8 @@ export default function Footer() {
                 alignItems:"center"
               }}
             >
-              <Sports />
-              <Typography fontSize="10px">مسابقات</Typography>
+              <SportsSoccerOutlinedIcon />
+              <Typography fontSize="10px">فوتبان</Typography>
             </div>
           </a><a href="/">
             <div
@@ -68,19 +72,20 @@ export default function Footer() {
                 alignItems:"center"
               }}
             >
-              <Sports />
-              <Typography fontSize="10px">مسابقات</Typography>
+              <ExploreOutlinedIcon />
+              <Typography fontSize="10px">اکتشاف</Typography>
             </div>
           </a><a href="/">
             <div
               style={{
                 display: "flex",
                 flexDirection: "column",
-                alignItems:"center"
+                alignItems:"center",
+                color:"green"
               }}
             >
               <Sports />
-              <Typography fontSize="10px">مسابقات</Typography>
+              <Typography fontSize="10px" >مسابقات</Typography>
             </div>
           </a>
         </Box>
